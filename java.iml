@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/android.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/android-support-v7-recyclerview.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/android-support-v4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/horizon-classes.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/android-support-multidex.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/inner.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/rhino.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/toolchain/classpath/json-io.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/src/java/src" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/toolchain/build/java" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/java/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="android.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/android.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="android-support-v7-recyclerview.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/android-support-v7-recyclerview.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="android-support-v4.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/android-support-v4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="horizon-classes.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/horizon-classes.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="android-support-multidex.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/android-support-multidex.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="inner.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/inner.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="rhino.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/rhino.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-io.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/toolchain/classpath/json-io.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

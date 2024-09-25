@@ -1,0 +1,47 @@
+{
+    "global": {
+        "info": {
+            "name": "MethodsOptifine",
+            "author": "Reider745",
+            "version": "1.1.0",
+            "description": "MethodsOptifine - мод для повышения tps/fps за счет прямого вызова java метов, т.е без рефлексии",
+            "clientOnly": true,
+            "icon": "src/mod_icon.png"
+        },
+        "api": "CoreEngine"
+    },
+    "make": {
+        "debugAbi": "armeabi-v7a",
+        "abis": [
+            "armeabi-v7a"
+        ],
+        "linkNative": [
+            "minecraftpe",
+            "innercore",
+            "nativejs"
+        ],
+        "excludeFromRelease": [],
+        "pushTo": "storage/emulated/0/games/horizon/packs/Inner_Core_Test_2/modpacks/du/mods/MethodsOptifine",
+        "ndkPath": null
+    },
+    "resources": [],
+    "sources": [
+        {
+            "source": "src/launcher.js",
+            "type": "launcher",
+            "language": "javascript"
+        }
+    ],
+    "compile": [
+        {
+            "source": "src/java",
+            "type":"java"
+        }
+    ],
+    "additional": [
+        {
+            "source": "src/config.json",
+            "targetDir": "."
+        }
+    ]
+}
