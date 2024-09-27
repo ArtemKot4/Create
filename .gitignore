@@ -1,21 +1,4 @@
-toolchain/build
-toolchain/temp
-toolchain/ndk
-toolchain/adb
-toolchain/bin
-toolchain/python
-toolchain/declarations
-
 output
-# .idea
-# .settings
- **/__pycache__
- **/tsconfig.jsons
-
- *.bat
- *.log
- *.icmod
-# .vscode
- .gradle
- gradle
- build
+tsconfig.json
+*.log
+*.icmod

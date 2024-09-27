@@ -1,3 +1,0 @@
-ConfigureMultiplayer({
-	isClientOnly: true
-});

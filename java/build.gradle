@@ -1,0 +1,21 @@
+plugins {
+	id "com.github.johnrengelman.shadow" version "5.2.0"
+	id "java"
+}
+
+dependencies {
+	
+}
+
+sourceSets {
+	main {
+		java {
+			srcDirs = ["src"]
+			buildDir = "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\build\\create-java-3bb85\\gradle\\classes\\${project.name}"
+		}
+		resources {
+			srcDirs = []
+		}
+		compileClasspath += files("F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\android-support-multidex.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\android-support-v4.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\android-support-v7-recyclerview.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\android.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\horizon-classes.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\inner.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\json-io.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\toolchain\\classpath\\rhino.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\android-support-multidex.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\android-support-v4.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\android-support-v7-recyclerview.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\android.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\horizon-classes.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\inner.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\json-io.jar", "F:\\Inner Core Modding\\toolchain-java-fix\\toolchain\\create-java\\classpath\\rhino.jar")
+	}
+}

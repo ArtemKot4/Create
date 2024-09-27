@@ -1,19 +1,20 @@
 plugins {
-	id "com.github.johnrengelman.shadow" version "7.1.0"
-	id "java"
-}
-
-dependencies {
-	implementation fileTree (dir: "toolchain\\classpath", include: '*.jar')
+    id "com.github.johnrengelman.shadow" version "7.1.0"
+    id "java"
 }
 
 sourceSets {
-	main {
-		java {
-			srcDirs = ["src/java/src"]
-		}
-		resources {
-			srcDirs = []
-		}
-	}
+    main {
+        java {
+            srcDirs = ["java/src"]
+        }
+        resources {
+            srcDirs = []
+        }
+    }
+}
+
+
+dependencies {
+    implementation fileTree (dir: 'classpath', include: '*.jar')
 }

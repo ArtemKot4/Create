@@ -1,7 +1,0 @@
-{
-    "source-dirs": ["src"],
-    "library-dirs": [],
-    "verbose": true,
-    "options": [],
-    "boot-classes": ["com.artemkot.Create"]
-}

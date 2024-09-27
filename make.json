@@ -1,47 +1,53 @@
 {
-    "global": {
-        "info": {
-            "name": "MethodsOptifine",
-            "author": "Reider745",
-            "version": "1.1.0",
-            "description": "MethodsOptifine - мод для повышения tps/fps за счет прямого вызова java метов, т.е без рефлексии",
-            "clientOnly": true,
-            "icon": "src/mod_icon.png"
-        },
-        "api": "CoreEngine"
-    },
-    "make": {
-        "debugAbi": "armeabi-v7a",
-        "abis": [
-            "armeabi-v7a"
-        ],
-        "linkNative": [
-            "minecraftpe",
-            "innercore",
-            "nativejs"
-        ],
-        "excludeFromRelease": [],
-        "pushTo": "storage/emulated/0/games/horizon/packs/Inner_Core_Test_2/modpacks/du/mods/MethodsOptifine",
-        "ndkPath": null
-    },
-    "resources": [],
-    "sources": [
-        {
-            "source": "src/launcher.js",
-            "type": "launcher",
-            "language": "javascript"
-        }
-    ],
-    "compile": [
-        {
-            "source": "src/java",
-            "type":"java"
-        }
-    ],
-    "additional": [
-        {
-            "source": "src/config.json",
-            "targetDir": "."
-        }
-    ]
+	"$schema": "https://raw.githubusercontent.com/zheka2304/innercore-mod-toolchain/develop/toolchain/schemas/make.schema.json",
+	"info": {
+		"name": "Create",
+		"author": "ArtemKot",
+		"version": "1.0",
+		"description": "description",
+		"clientOnly": false
+	},
+	"resources": [
+		{
+			"path": "assets/res",
+			"type": "resource_directory"
+		},
+		{
+			"path": "assets/gui",
+			"type": "gui"
+		}
+	],
+	"java": {
+		"configurable": true
+	},
+	"sources": [
+		{
+			"source": "dev",
+			"target": "main.js",
+			"type": "main",
+			"language": "typescript"
+		},
+		{
+			"source": "launcher.js",
+			"type": "launcher",
+			"language": "javascript"
+		},
+		{
+			"source": "lib/*",
+			"type": "library",
+			"language": "javascript"
+		}
+	],
+	"compile": [
+		{
+			"source": "java",
+			"type": "java"
+		}
+	],
+	"additional": [
+		{
+			"source": "assets/root/*",
+			"targetDir": "."
+		}
+	]
 }
